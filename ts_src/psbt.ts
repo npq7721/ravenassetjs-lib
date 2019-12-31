@@ -678,7 +678,7 @@ const transactionFromBuffer: TransactionFromBuffer = (
 
 /**
  * This class implements the Transaction interface from bip174 library.
- * It contains a bitcoinjs-lib Transaction object.
+ * It contains a ravenassetjs-lib Transaction object.
  */
 class PsbtTransaction implements ITransaction {
   tx: Transaction;
